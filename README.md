@@ -14,3 +14,5 @@ Integration of images and links within a web page
 Structuring content using ordered and unordered lists
 Creating an aesthetically pleasing and functional webpage for showcasing Hawaiian recipes
 This project has provided valuable practical insights and a solid foundation to further build upon my web development skills. I look forward to applying these skills in future projects and continuously improving my understanding of web development concepts.
+
+live preview : https://joaocorreiaprof.github.io/odin-recipes/
