@@ -1,0 +1,48 @@
+.background-image {
+    background-image: url('./images/hawaii.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 48px;
+    color: #13626d;
+    margin-top: 50px;
+    animation: wave 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+}
+
+
+a:hover {
+    color: #0077ff;
+    background-color: #d7dde0;
+}
+
+ul {
+    font-family: "Tiki Tropic", cursive;
+    font-size: 34px;
+}
+li {
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: #012c01;
+}
