@@ -3,46 +3,74 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 48px;
-    color: #13626d;
-    margin-top: 50px;
-    animation: wave 1.5s ease-in-out infinite alternate;
+    color: white;
+    margin-top: 20px;
+    animation: pulse 1.5s ease-in-out infinite alternate;
+    background-color: rgba(19, 98, 109, 0.7);
+    padding: 10px;
+    border-radius: 10px;
 }
 
-@keyframes wave {
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.recipe-links {
+    text-align: center;
+}
+
+.recipe-links a {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 350px;
+}
+
+.recipe-links img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #012c01;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.recipe-links img:hover {
+    transform: scale(1.1);
+}
+
+.recipe-name {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
     0%, 100% {
         transform: translateY(0);
     }
-    25% {
-        transform: translateY(-10px);
-    }
     50% {
-        transform: translateY(0);
+        transform: translateY(-20px);
     }
-    75% {
-        transform: translateY(10px);
-    }
-}
-
-
-a:hover {
-    color: #0077ff;
-    background-color: #d7dde0;
-}
-
-ul {
-    font-family: "Tiki Tropic", cursive;
-    font-size: 34px;
-}
-li {
-    margin-bottom: 10px;
-}
-a {
-    text-decoration: none;
-    color: #012c01;
 }
