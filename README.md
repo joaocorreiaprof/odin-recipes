@@ -14,3 +14,5 @@ Integration of images, links, animations, and styles using CSS within a web page
 Structuring content using ordered and unordered lists.
 Understanding the concepts of cascade, and effectively utilizing IDs and classes for styling and organization.
 This project remains in constant development as I continue to expand my knowledge and skills. The implementation of cascade, IDs, and classes has added depth to the design and functionality of the website. I look forward to further refining this project and utilizing these skills in future projects, continuously improving my understanding of web development concepts.
+
+live preview : https://joaocorreiaprof.github.io/odin-recipes/
